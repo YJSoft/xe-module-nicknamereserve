@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lang>
+	<item name="nicknamereserve">
+		<value xml:lang="ko"><![CDATA[닉네임 예약]]></value>
+	</item>
+	<item name="cmd_purge_nick">
+		<value xml:lang="ko"><![CDATA[닉네임 기록 삭제]]></value>
+	</item>
+	<item name="confirm_purge_nick">
+		<value xml:lang="ko"><![CDATA[닉네임 기록 삭제]]></value>
+	</item>
+	<item name="err_reserved_nickname">
+		<value xml:lang="ko"><![CDATA[사용할 수 없는 닉네임입니다.]]></value>
+	</item>
+</lang>

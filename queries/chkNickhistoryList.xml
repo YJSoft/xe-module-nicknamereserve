@@ -1,0 +1,12 @@
+<query id="chkNickhistoryList" action="select">
+    <tables>
+        <table name="nick_history" />
+    </tables>
+    <columns>
+        <column name="*" />
+    </columns>
+    <conditions>
+        <condition operation="like" column="nick_name" var="html_nick_name" />
+        <condition operation="more" column="last_used" var="last_used" notnull="notnull" pipe="and" />
+    </conditions>
+</query>

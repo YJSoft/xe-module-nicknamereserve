@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<grants />
+	<permissions />
+	<actions>
+        <action name="dispNicknamereserveAdminConfig" type="view" admin_index="true" menu_name="menu_nicknamereserve" menu_index="true" />
+        <action name="dispNicknamereserveAdminReservedList" type="view" />
+        <action name="procNicknamereserveAdminInsertConfig" type="controller" />
+    </actions>
+    <menus>
+        <menu name="menu_nicknamereserve" type="all">
+            <title xml:lang="ko">닉네임 예약</title>
+            <title xml:lang="en">닉네임 예약</title>
+        </menu>
+    </menus>
+</module>

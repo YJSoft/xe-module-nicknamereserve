@@ -1,0 +1,5 @@
+<table name="nick_history">
+    <column name="member_srl" type="number" size="11" notnull="notnull" primary_key="primary_key" />
+    <column name="nick_name" type="varchar" size="40" notnull="notnull" />
+    <column name="last_used" type="date" index="idx_last_used" />
+</table>

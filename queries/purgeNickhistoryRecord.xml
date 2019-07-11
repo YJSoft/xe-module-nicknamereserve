@@ -1,0 +1,8 @@
+<query id="purgeNickhistoryRecord" action="delete">
+	<tables>
+		<table name="nick_history" />
+	</tables>
+	<conditions>
+		<condition operation="less" column="last_used" var="last_used" notnull="notnull" />
+	</conditions>
+</query>

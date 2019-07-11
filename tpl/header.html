@@ -1,0 +1,16 @@
+<div class="x_page-header">
+	<h1>{$lang->nicknamereserve}</h1>
+</div>
+
+<ul class="x_nav x_nav-tabs">
+	<li class="x_active"|cond="$act == 'dispNicknamereserveAdminConfig'">
+		<a href="{getUrl('', 'module', 'admin', 'act', 'dispNicknamereserveAdminConfig')}">Config</a>
+	</li>
+	<li class="x_active"|cond="$act == 'dispNicknamereserveAdminReservedList'">
+		<a href="{getUrl('', 'module', 'admin', 'act', 'dispNicknamereserveAdminReservedList')}">Tab</a>
+	</li>
+</ul>
+
+<div cond="$XE_VALIDATOR_MESSAGE" class="message {$XE_VALIDATOR_MESSAGE_TYPE}">
+	<p>{$XE_VALIDATOR_MESSAGE}</p>
+</div>

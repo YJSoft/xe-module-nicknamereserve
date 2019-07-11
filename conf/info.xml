@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="ko">닉네임 예약</title>
+	<description xml:lang="ko">유저가 사용했던 닉네임을 일정 기간 동안 타 유저가 사용할 수 없도록 예약합니다.</description>
+	<version>0.1</version>
+	<date>2019-07-11</date>
+	<author email_address="yjsoft@yjsoft.pe.kr" link="http://yjsoft.pe.kr">
+		<name xml:lang="ko">YJSoft</name>
+	</author>
+</module>

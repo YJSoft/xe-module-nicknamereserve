@@ -1,0 +1,8 @@
+<query id="deleteNickhistoryRecord" action="delete">
+	<tables>
+		<table name="nick_history" />
+	</tables>
+	<conditions>
+		<condition operation="equal" column="nick_name" var="nick_name" notnull="notnull" />
+	</conditions>
+</query>
